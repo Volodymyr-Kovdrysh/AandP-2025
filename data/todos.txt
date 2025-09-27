@@ -6,3 +6,4 @@ add some
 edit homework
 add new task
 нове цікаве завдання
+Fix programm
