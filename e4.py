@@ -1,0 +1,7 @@
+import webbrowser
+
+user_term = input("Enter a search term: ")
+
+webbrowser.open('https://www.google.com/search?q=' + user_term)
+
+# &sca_esv=90ccd5d0cf3c32a1&source=hp&ei=UVzeaLXUHoWExc8Pwda66Ac&iflsig=AOw8s4IAAAAAaN5qYZ0GUx5FAarKyG9B1TfafY7_gWRI&oq=python+&gs_lp=Egdnd3Mtd2l6GgIYAyIHcHl0aG9uICoCCAEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIOEAAYgAQYsQMYgwEYiwMyBRAAGIAEMgUQABiABDIIEAAYgAQYiwMyCBAAGIAEGIsDMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDSJkzUKMLWLIicAF4AJABAJgB-AWgAbEXqgENMC4xLjEuMi4xLjAuMrgBA8gBAPgBAZgCCKACpxioAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICCBAAGIAEGLEDwgIOEC4YgAQYsQMY0QMYxwHCAhEQABiABBixAxiDARiKBRiLA5gDI_EFZVXnD88CMMKSBwsxLjEuMS4yLjEuMqAHmyayBwswLjEuMS4yLjEuMrgHgxjCBwcyLTMuNC4xyAdc&sclient=gws-wiz
