@@ -7,3 +7,5 @@ edit homework
 add new task
 нове цікаве завдання
 Fix programm
+зробити фізичну зарядку
+прочитати книгу
