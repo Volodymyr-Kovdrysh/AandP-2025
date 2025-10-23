@@ -1,6 +1,15 @@
 import functions
 import FreeSimpleGUI as sg
 import time
+import os
+
+os.makedirs("data", exist_ok=True)
+todos_path = os.path.join("data", "todos.txt")
+
+if not os.path.exists(todos_path):
+    with open(todos_path, "w") as f:
+        pass
+
 
 
 sg.theme('LightBlue6')
@@ -26,7 +35,6 @@ window = sg.Window("My TODO App", layout=[
 while True:
     event, values = window.read(timeout=200)
 
-
     match event:
         case 'Add':
             todos = functions.get_todos()
@@ -50,7 +58,7 @@ while True:
             except IndexError:
                 sg.popup("Оберіть тудушку", font=("Helvetica", 20))
         case 'todos':
-            print(values['todos'][0])
+            # print(values['todos'][0])
             window['todo'].update(value=values['todos'][0])
         case 'Complete':
             try:

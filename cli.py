@@ -1,7 +1,14 @@
 # from functions import get_todos, write_todos
 import time
 import functions
+import os
 
+os.makedirs("data", exist_ok=True)
+todos_path = os.path.join("data", "todos.txt")
+
+if not os.path.exists(todos_path):
+    with open(todos_path, "w") as f:
+        pass
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print(now)
