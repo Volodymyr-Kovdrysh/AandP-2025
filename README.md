@@ -11,3 +11,6 @@ pyinstaller --onefile --windowed --clean gui.py
 ## streamlit
 
 [streamlit](streamlit.io)
+
+## WEB
+[WEB](https://web-app-2025.streamlit.app/)
